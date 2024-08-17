@@ -1,5 +1,9 @@
 ---
-title: "GIRLY SCIENCE"
+title: "SCIENCE GYAL"
+title-block-style: 'manuscript'
+title-block-banner-color: '#FF1493'
+
+author: "Ana Sofía Pineda"
 listing:
   contents: posts
   sort: "date desc"
@@ -9,6 +13,11 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: true
+ 
+format:
+ html:
+   theme: minty
+   css: styles.css
+   backgroundcolor: '#FFC0CB'
+   opacity: "0.3"
 ---
-
-
