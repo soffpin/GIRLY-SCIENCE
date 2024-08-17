@@ -1,7 +1,6 @@
 ---
 title: "CIENCIA E HIDROPONIA!" 
 author: "Ana Sofía Pineda"
-image: "![](/IMAGENES/SOFF.jpg)"
 date: "08/aug/2024"
 date-format: "[Xalapa, Ver.] D MMM YYYY"
 lang: es 
