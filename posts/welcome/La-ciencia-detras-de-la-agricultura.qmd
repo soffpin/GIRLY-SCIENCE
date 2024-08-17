@@ -1,0 +1,49 @@
+---
+title: "La ciencia detrás de la agricultura"
+author: "Ana Sofía Pineda"
+date: "2024-08-08"
+categories: [Artículos]
+page-layout: full
+---
+
+::: {style="font-family: arial;font-size: 15px;color: black;text-align: justify;page-layout: full"}
+A lo largo de mi formación como ingeniera he aprendido sobre distintos cultivos y probé el trabajo en distintas ramas de la agronomía. Aprendí a cultivar hortalizas en condiciones protegidas, también llamado Agricultura Protegida (AP), tanto en invernadero, como en campo abierto, además del manejo de sistemas hidropónicos.Elegir la agricultura protegida como mi área de interés no sólo me trajo conocimientos técnicos, también aprendí mucho sobre el trabajo en equipo, la cooperación y el compañerismo, pero sin duda, uno de los mejores descubrimientos que me trajo esta decisión, fue mi gusto por la investigación científica.
+
+Como proyecto para egresar de la licenciatura, desarrollé un sistema hidropónico de raíz flotante para especies de hoja. Lo novedoso de este proyecto fue que, en la fase de germinación de mis semillas, las nutrí con microorganismos benéficos (*Bacillus subtillis, Trichoderma harzianum* y *Azospirillum brasilense*). A los 15 días después de la germinación, las trasplanté y coseché **hortalizas gigantes!**
+:::
+
+::: {style="font-family: arial;font-size: 15px;color: black;text-align: justify"}
+::: panel-tabset
+## Dónde trabajé
+
+***Invernaderos del Seminario Mayor de Xalapa***
+
+::: columns
+::: {.column width="40%"}
+![](/IMAGENES/invernadero.jpg){width="100%"}
+:::
+
+**Acolchado plástico en campo abierto**
+
+::: {.column width="60%"}
+![](/IMAGENES/acolchado.jpg){width="70%"}
+:::
+:::
+
+## Mi primer proyecto de investigación científica
+
+Trabajé con hidroponia!
+
+::: columns
+::: {.column width="40%"}
+![](/IMAGENES/feliz.jpg){width="70%"}
+:::
+
+# **Mis hortalizas GIGANTES!**
+
+::: {.column width="60%"}
+![](/IMAGENES/HIDROPONIA/SOFF-HIDROPONIA.png){width="70%"}
+:::
+:::
+:::
+:::

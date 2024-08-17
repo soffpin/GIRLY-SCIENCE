@@ -1,0 +1,82 @@
+---
+title: "CIENCIA E HIDROPONIA!" 
+author: "Ana Sofía Pineda"
+image: "![](/IMAGENES/SOFF.jpg)"
+date: "08/aug/2024"
+date-format: "[Xalapa, Ver.] D MMM YYYY"
+lang: es 
+categories: [hidroponia, agricultura protegida, microorganismos, hortalizas]
+
+style:
+  css: styles.css
+  theme: minty
+  backgroundcolor: '#FFC0CB'
+  text-decoration-style: 'solid'
+
+format: 
+  revealjs:
+    width: 1280
+    height: 720
+    margin: 0.02
+    preview-links: true
+    chalkboard:
+      theme: chalkboard
+      boardmarker-width: 5
+      buttons: true
+  
+      
+    link-external-newwindow: true
+    navigation-mode: vertical
+    menu:
+      side: left
+      width: normal
+    pointer:
+      pointerSize: 18
+      color: 'red'   
+    footer: "[Inicio](https://girlyscience.netlify.app/)"
+
+revealjs-plugins:
+  - pointer
+  - attribution
+  
+
+  
+comments: 
+  hypothesis: true
+---
+
+## 
+
+![](/IMAGENES/HIDROPONIA/HIDROPONIA1.png)
+
+## 
+
+![](/IMAGENES/HIDROPONIA/HIDROPONIA2.png)
+
+## 
+
+![](/IMAGENES/HIDROPONIA/HIDROPONIA3.png)
+
+## 
+
+![](/IMAGENES/HIDROPONIA/HIDROPONIA4.png)
+
+## 
+
+![](/IMAGENES/HIDROPONIA/HIDROPONIA5.png)
+
+## 
+
+![](/IMAGENES/HIDROPONIA/HIDROPONIA6.png)
+
+## 
+
+![](/IMAGENES/HIDROPONIA/HIDROPONIA7.png)
+
+## 
+
+![](/IMAGENES/HIDROPONIA/HIDROPONIA8.png)
+
+::: {style="font-family: arial;font-size: 20px;color: black;text-align: center;page-layout: full"}
+# [***Consulta mi artículo*** **"Efecto de Microorganismos Bioestimulantes en la Morfología de Lactuca sativa L. Bajo un Sistema de Raíz Flotante"**](http://rinderesu.com/index.php/rinderesu/article/view/115 "Efecto de Microorganismos Bioestimulantes en la Morfología de Lactuca sativa L. Bajo un Sistema de Raíz Flotante"){style="color: black"} ***publicado en la Revista Internacional de Desarrollo Regional Sustentable aquí!***
+:::
