@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ana Sofía Pineda">
+<meta name="dcterms.date" content="2024-08-08">
 
-<title>GIRLY SCIENCE - SCIENCE GYAL</title>
+<title>GIRLY SCIENCE - La ciencia detrás de la agricultura</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,83 +68,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner h1,
-      .quarto-title-block .quarto-title-banner h2,
-      .quarto-title-block .quarto-title-banner h3,
-      .quarto-title-block .quarto-title-banner h4,
-      .quarto-title-block .quarto-title-banner h5,
-      .quarto-title-block .quarto-title-banner h6
-      {
-        color: #FF1493;
-      }
-
-      .quarto-title-block .quarto-title-banner {
-        color: #FF1493;
-      }
-</style>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -155,7 +80,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">GIRLY SCIENCE</span>
     </a>
   </div>
@@ -166,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -189,190 +114,84 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">SCIENCE GYAL</h1>
-          </div>
-
-    
-    <div class="quarto-title-meta-container">
-      <div class="quarto-title-meta-column-start">
-        
-        <div class="quarto-title-meta column-page-left">
-
-                <div>
-            <div class="quarto-title-meta-heading">Author</div>
-            <div class="quarto-title-meta-contents">
-                        <p>Ana Sofía Pineda </p>
-                      </div>
-          </div>
-                
-          
-                
+    <div class="quarto-title column-page">
+      <h1 class="title">La ciencia detrás de la agricultura</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Artículos</div>
               </div>
-      </div>
-      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Ana Sofía Pineda </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 8, 2024</p>
       </div>
     </div>
-
-
-
-    <div class="quarto-other-links-text-target">
-    </div>  </div>
-</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Artículos">Artículos <span class="quarto-category-count">(2)</span></div><div class="category" data-category="agricultura protegida">agricultura protegida <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hidroponia">hidroponia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hortalizas">hortalizas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="microorganismos">microorganismos <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
-
-
-
-  
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
 
 
+<div style="font-family: arial;font-size: 15px;color: black;text-align: justify;page-layout: full">
+<p>A lo largo de mi formación como ingeniera he aprendido sobre distintos cultivos y probé el trabajo en distintas ramas de la agronomía. Aprendí a cultivar hortalizas en condiciones protegidas, también llamado Agricultura Protegida (AP), tanto en invernadero, como en campo abierto, además del manejo de sistemas hidropónicos.Elegir la agricultura protegida como mi área de interés no sólo me trajo conocimientos técnicos, también aprendí mucho sobre el trabajo en equipo, la cooperación y el compañerismo, pero sin duda, uno de los mejores descubrimientos que me trajo esta decisión, fue mi gusto por la investigación científica.</p>
+<p>Como proyecto para egresar de la licenciatura, desarrollé un sistema hidropónico de raíz flotante para especies de hoja. Lo novedoso de este proyecto fue que, en la fase de germinación de mis semillas, las nutrí con microorganismos benéficos (<em>Bacillus subtillis, Trichoderma harzianum</em> y <em>Azospirillum brasilense</em>). A los 15 días después de la germinación, las trasplanté y coseché <strong>hortalizas gigantes!</strong></p>
+</div>
+<div style="font-family: arial;font-size: 15px;color: black;text-align: justify">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Dónde trabajé</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Mi primer proyecto de investigación científica</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p><strong><em>Invernaderos del Seminario Mayor de Xalapa</em></strong></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img src="../..\IMAGENES/invernadero.jpg" class="img-fluid" style="width:100.0%"></p>
+</div><p><strong>Acolchado plástico en campo abierto</strong></p><div class="column" style="width:60%;">
+<p><img src="../..\IMAGENES/acolchado.jpg" class="img-fluid" style="width:70.0%"></p>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Trabajé con hidroponia!</p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img src="../..\IMAGENES/feliz.jpg" class="img-fluid" style="width:70.0%"></p>
+</div><section id="mis-hortalizas-gigantes" class="level1">
+<h1><strong>Mis hortalizas GIGANTES!</strong></h1>
+<div class="column" style="width:60%;">
+<p><img src="../..\IMAGENES/HIDROPONIA/SOFF-HIDROPONIA.png" class="img-fluid" style="width:70.0%"></p>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1723883097339" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/RINDERESU.pdf" class="no-external"></a></p><a href="./posts/RINDERESU.pdf" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/RINDERESU.pdf" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/RINDERESU.pdf" class="no-external"><strong>Efecto de Microorganismos Bioestimulantes en la Morfología de <em>Lactuca sativa</em> L. Bajo un Sistema de Raíz Flotante</strong></a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/RINDERESU.pdf" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/RINDERESU.pdf" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/RINDERESU.pdf" class="no-external"></a></p><a href="./posts/RINDERESU.pdf" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="hidroponia,agricultura protegida,microorganismos,hortalizas" data-listing-date-sort="1723096800000" data-listing-file-modified-sort="1723883318120" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
-<div class="thumbnail">
-<p><a href="./posts/welcome/hidroponia.html" class="no-external"></a></p><a href="./posts/welcome/hidroponia.html" class="no-external">
-<p><img src="./posts/welcome/![](/IMAGENES/SOFF.jpg)" class="thumbnail-image"></p>
-</a><p><a href="./posts/welcome/hidroponia.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/hidroponia.html" class="no-external">CIENCIA E HIDROPONIA!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/hidroponia.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('hidroponia'); return false;">
-hidroponia
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('agricultura protegida'); return false;">
-agricultura protegida
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('microorganismos'); return false;">
-microorganismos
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('hortalizas'); return false;">
-hortalizas
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/hidroponia.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/hidroponia.html" class="no-external">
-<div class="listing-date">
-Aug 8, 2024
-</div>
-<div class="listing-author">
-Ana Sofía Pineda
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Artículos" data-listing-date-sort="1723096800000" data-listing-file-modified-sort="1723873466017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
-<div class="thumbnail">
-<p><a href="./posts/welcome/La-ciencia-detras-de-la-agricultura.html" class="no-external"></a></p><a href="./posts/welcome/La-ciencia-detras-de-la-agricultura.html" class="no-external">
-<p class="card-img-top"><img src="IMAGENES\invernadero.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/welcome/La-ciencia-detras-de-la-agricultura.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/La-ciencia-detras-de-la-agricultura.html" class="no-external">La ciencia detrás de la agricultura</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/La-ciencia-detras-de-la-agricultura.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Artículos'); return false;">
-Artículos
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/La-ciencia-detras-de-la-agricultura.html" class="no-external">A lo largo de mi formación como ingeniera he aprendido sobre distintos cultivos y probé el trabajo en distintas ramas de la agronomía. Aprendí a cultivar hortalizas en…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/La-ciencia-detras-de-la-agricultura.html" class="no-external">
-<div class="listing-date">
-Aug 8, 2024
-</div>
-<div class="listing-author">
-Ana Sofía Pineda
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Artículos" data-listing-date-sort="1719727200000" data-listing-file-modified-sort="1723880650248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
-<p class="card-img-top"><img src="IMAGENES\FRESA.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Sembrando la semilla</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Artículos'); return false;">
-Artículos
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/index.html" class="no-external"><em>BIENVENIDOS! :)</em></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Jun 30, 2024
-</div>
-<div class="listing-author">
-Ana Sofía Pineda
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

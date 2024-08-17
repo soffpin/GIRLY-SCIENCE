@@ -18,6 +18,4 @@ format:
  html:
    theme: minty
    css: styles.css
-     backgroundcolor: '#FFC0CB'
-     opacity: "0.3"
 ---
