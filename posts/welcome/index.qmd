@@ -1,12 +1,24 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2024-08-14"
-categories: [news]
+title: "Sembrando la semilla"
+author: "Ana Sofía Pineda"
+date: "2024-06-30"
+categories: [Artículos]
+lang: es
+page-layout: full
 ---
 
-This is the first post in a Quarto blog. Welcome!
+::: {style="font-family: arial;font-size: 25px;color: black;text-align: center;page-layout: full"}
+*BIENVENIDOS! :)*
+:::
 
-![](thumbnail.jpg)
+::: {style="font-family: arial;font-size: 20px;color: black;text-align: justify"}
+Me llamo Ana Sofía Pineda, soy ingeniera agrónoma y actualmente estoy estudiando la Maestría en Ciencias Agropecuarias en la Facultad de Ciencias Agrícolas *Campus Xalapa* perteneciente a la Universidad Veracruzana. Me encantan las plantas, el trabajo de campo y tomar fotos, que probablemente verás a lo largo de tu recorrido por mi blog.
+:::
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+![](/IMAGENES/FRESA.jpg){fig-align="center" width="720"}
+
+::: {style="font-family: arial;font-size: 20px;color: black;text-align: justify;page-layout: full"}
+Me gusta pensar que el propósito de generar conocimiento es compartirlo de una forma en la que todos podamos aprender sobre los nuevos descubrimientos de la ciencia sin importar nuestra ocupación. Yo creo que nunca es tarde para aprender o dedicarse a cosas nuevas, ya que así fue como descubrí mi gusto por la investigación, la escritura y la divulgación del conocimiento. Es por ello que he creado este blog, con el fin de compartir de manera sencilla los descubrimientos que estoy generando.
+
+Te invito a explorar **SCIENCEGYAL**, una página web dedicada principalmente a mi tesis de maestría, pero también a mi trayectoria como estudiante.
+:::
